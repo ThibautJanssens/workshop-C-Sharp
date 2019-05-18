@@ -53,7 +53,7 @@ The computer choose a random number between 1-100.
 Invite the user to enter a number, and tell him if it's higher or lower than his number.
 Bonus: You can add a try catch to avoid that the user enter a string instead of a integer + invite the user to play again.
 
-### Exercise 6
+### Bonus for the brave only - Exercise 6
 
 Too easy? Ok let's try this.
 
