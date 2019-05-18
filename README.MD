@@ -1,6 +1,6 @@
 # Authors
 
-Workshop in C# made by Louis Cantinieaux & Thibaut Janssens.
+Workshop in C# made by [Louis Cantinieaux](https://github.com/LouisCantinieaux) & [Thibaut Janssens](https://github.com/ThibautJanssens).
 
 # Theory
 [Slides](https://docs.google.com/presentation/d/1jYp38dPLZ4UNBnItOynNL402H8gap3mblmcZNIKusL4/edit?usp=sharing) of the presentation.
