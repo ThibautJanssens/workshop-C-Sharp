@@ -13,7 +13,7 @@ To developp in C# with linux you can run our script `./install.sh` to download a
 If you can't run it, do the following command :
 
 ```cmd
-chmod u+x ./install.sh
+chmod +x ./install.sh
 ./install.sh
 ``` 
 
