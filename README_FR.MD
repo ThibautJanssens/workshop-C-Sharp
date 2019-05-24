@@ -7,6 +7,8 @@ Workshop en C# réalisé par Louis Cantinieaux & Thibaut Janssens.
 [Slides](https://docs.google.com/presentation/d/1jYp38dPLZ4UNBnItOynNL402H8gap3mblmcZNIKusL4/edit?usp=sharing) de la présentation.
 Vous pouvez aussi trouver dans le répertoire un document word reprenant une partie de la théorie.
 
+Si vous voulez vous un complément d'information, vous pouvez lire le [pdf](./CSharpNotesForProfessionals.pdf) ci-joint dans le répertoire.
+
 # Environement
 
 Pour developper en C# avec linux, vous pouvez lancer le script `./install.sh` pour télécharger et installer Monodevelop.
