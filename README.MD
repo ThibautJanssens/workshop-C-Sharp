@@ -39,7 +39,7 @@ Then return the sum, the average, the min and the max contained in this table.
 
 ### Exercise 4
 
-Choose one version of the 2nd exercise and let's change a bit.  
+Display the nubers from 1 to 100 and let's change a bit.  
 
 If the number is a multiple of 5, it changes to "Ding Ding".  
 
