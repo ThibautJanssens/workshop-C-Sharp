@@ -40,7 +40,7 @@ Renvoyez la somme, la moyenne, le minimum et le maximum contenu dans ce tableau.
 
 ### Exercice 4
 
-Choississez une version du 2e exercice et changeons le un petit peu.
+Affichez les nombres de 1 à 100 et changeons un petit peu.
 Si le nombre est un multiple de 5, afficher à la place "Ding Ding"
 Si le nombre est un multiple de 7, afficher à la place "Bottle".
 Si le nombre est un multiple des deux, afficher à la place "Ding Ding Bottle".
