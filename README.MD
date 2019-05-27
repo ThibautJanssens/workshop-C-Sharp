@@ -6,6 +6,8 @@ Workshop in C# made by [Louis Cantinieaux](https://github.com/LouisCantinieaux) 
 [Slides](https://docs.google.com/presentation/d/1jYp38dPLZ4UNBnItOynNL402H8gap3mblmcZNIKusL4/edit?usp=sharing) of the presentation.
 You can also find a word file with some theory in this repository.
 
+If you still want more information you can also check the [pdf](./CSharpNotesForProfessionals.pdf) link into the repository.
+
 # Environment
 
 To developp in C# with linux you can run our script `./install.sh` to download and install Monodevelop.

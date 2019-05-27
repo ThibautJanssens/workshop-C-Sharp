@@ -1,12 +1,15 @@
-# Authors
+# Auteurs
 
 Workshop en C# réalisé par Louis Cantinieaux & Thibaut Janssens.
 
-# Theory
+# Theorie
+
 [Slides](https://docs.google.com/presentation/d/1jYp38dPLZ4UNBnItOynNL402H8gap3mblmcZNIKusL4/edit?usp=sharing) de la présentation.
 Vous pouvez aussi trouver dans le répertoire un document word reprenant une partie de la théorie.
 
-# Environment
+Si vous voulez vous un complément d'information, vous pouvez lire le [pdf](./CSharpNotesForProfessionals.pdf) ci-joint dans le répertoire.
+
+# Environement
 
 Pour developper en C# avec linux, vous pouvez lancer le script `./install.sh` pour télécharger et installer Monodevelop.
 
@@ -17,60 +20,58 @@ chmod +x ./install.sh
 ./install.sh
 ``` 
 
-# Exercises
+# Exercices
 
-### Exercise 1
+### Exercice 1
 
-Ask the user to enter three numbers: min, max and current. Display if current is between min and max.
+Demander à l'utilisateur d'entrer 3 nombres: min, max, et current. Afficher si le nombre 'current' est compris entre le min et le max.
 
-Bonus: if min is greater than max, display an error message to explain the user that he needs to go back to primary school then exit the program.
+Bonus: Si le min est supérieur au max, afficher un message d'erreur pour expliquer à l'utilisateur qu'il peut retourner à l'école primaire et quitter le programme.
 
-### Exercise 2
+### Exercice 2
 
-Display all **even** numbers between 1 and 100. 
-Do it twice. Once with a while, and the other one with a for.
+Afficher tout les nombres **pairs** entre 1 et 100 compris.
+Faites l'exercices 2 fois. La première fois avec une boucle while, la seconde fois avec une boucle for.
 
-### Exercise 3
+### Exercice 3
 
-Make a table with different numbers in it.
-Then return the sum, the average, the min and the max contained in this table.
+Faites un tableau avec différents nombres à l'intérieur.
+Renvoyez la somme, la moyenne, le minimum et le maximum contenu dans ce tableau.
 
-### Exercise 4
+### Exercice 4
 
-Choose one version of the 2nd exercise and let's change a bit.
-If the number is a multiple of 5, it changes to "Ding Ding".
-If it's a multiple of 7, it changes to "Bottle".
-If it's a multiple of both, it changes "Ding Ding Bottle".
+Choississez une version du 2e exercice et changeons le un petit peu.
+Si le nombre est un multiple de 5, afficher à la place "Ding Ding"
+Si le nombre est un multiple de 7, afficher à la place "Bottle".
+Si le nombre est un multiple des deux, afficher à la place "Ding Ding Bottle".
 
-### Exercise 5
+### Exercice 5
 
-Let's spice it up a little bit 
+Corsons un petit peu les choses.
 
 ![spice](./spicy.gif)
 
-We'll make a new find the magic number game.
-The computer choose a random number between 1-100.
-Invite the user to enter a number, and tell him if it's higher or lower than his number.
-Bonus: You can add a try catch to avoid that the user enter a string instead of a integer + invite the user to play again.
+Nous allons faire le jeu du nombre magique.  
+L'ordinateur va choisir un nombre aléatoire entre 1 et 100 compris.  
+Invitez l'utilisateur à entrer un nombre et dites lui si le nombre magique est plus grand ou plus petit que le sien.  
+Bonus: Vous pouvez rajouter un try catch pour éviter que l'utilisateur n'entre une chaine de caractères à la place d'un nombre entier + inviter l'utilisateur à rejouer.
 
-### Exercise 6
+### Exercice 6
 
-Too easy? Ok let's try this.
+Trop facile? Ok essayons ça !
 
 ![oil-up](./oil-up.jpg)
 
-We'll make a warrior game. Invite the user to create 3 Warriors.
+Nous allons faire un jeu de guerriers. Invitez l'utilisateur à créer 3 Guerriers.
 
-He will faces random monsters (weak, strong or boss). 
-If he kills a weak monster he gains 10 points.
-If he kills a strong monster he gains 20 points but he also may drop some potion to heal. Potion heal for 25 hp.
-If he kills a boss, he gains 100 points and can revive one warrior if he has a dead one, or he drops 2 potions.
-If the warrior dies, the user will use the next warrior he has. If he has none. He loses.
-Show the score at the end and invite the user to play again.
+Il va affronter des monstres aléatoire (faible, fort ou boss).
+S'il tue un monstre faible, il gagne 10 points.
+S'il tue un monstre fort, il gagne 20 points mais il peut également avoir une chance de récupérer une potion. La potion régénère 25 points de vie.
+S'il tue un boss, il gagne 100 points et s'il avait un guerrier mort il peut le faire revivre. Sinon il récupère 2 potions.
+Si un guerrier meurt, l'utilisateur utilisera le guerrier suivant dans sa liste. S'il n'en a plus, il perd.
+Afficher le score à la fin de la partie et proposez à l'utilisateur de rejouer.
 
-The warrior object has several properties such as a name, 100 hp, and a random number between 0-10 hitPoint. (0 he missed, 10 it's a critical hit.)
-The weak monster object has 50 hp, a random number between 0-3 hitPoint.
-The strong monster has 100 hp, a random number between 0-5 hitPoints.
-The boss monster has 150 hp, a random number between 0-7 hitPoints.
-
- 
+Le guerrier est un objet qui possède plusieurs propriétés comme un nom, 100 points de vie, et lorsqu'il tapera, il fera un nombre de dégats aléatoire entre 0-10. (0 il rate, 10 coup critique)
+Le monstre faible est un object qui possède 50 points de vie, et des dégats aléatoire entre 0 et 3.
+Le monstre fort a 100 points de vie, et des nombres de dégats aléatoire entre 0 et 5.
+Le boss quand à lui possède 150 points de vie, et des dégats aléatoire entre 0 et 7.
